@@ -18,8 +18,26 @@ body {
 
 .container {
   background:  rgba(12, 12, 17, 0.856);
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 50px;
 }
 
 .container.show-nav {
   transform: rotate(-20deg);
+}
+
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+
+.circle {
+  background-color: #4C8A3A;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
