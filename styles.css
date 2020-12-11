@@ -53,6 +53,7 @@ body {
   border: 0;
   font-size: 30px;
   color: white;
+  cursor: pointer;
 }
 
 .circle button:focus {
